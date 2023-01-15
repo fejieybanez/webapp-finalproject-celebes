@@ -15,8 +15,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!-- CSS -->
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <!-- Latest compiled and minified CSS 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
@@ -24,7 +24,7 @@
         <!-- jQuery library 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>-->
 
-        <!-- Latest compiled JavaScript -->
+        <!-- Latest compiled JavaScript 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <style> 
         *{
@@ -45,7 +45,7 @@
             width: 70%;
             height:300px;
             position:center;
-            } </style> 
+            } </style> -->
     </head>
     <body id="page-top">
         
@@ -61,5 +61,17 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        <!-- JavaScript -->
+          <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+        <script type="text/javascript">
+            $('.main-carousel').flickity({
+  // options
+        cellAlign: 'left',
+        wrapAround: true,
+        freeScroll: true
+        });
+
+        </script>
     </body>
 </html>
