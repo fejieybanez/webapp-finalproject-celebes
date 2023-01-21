@@ -1,1 +1,1 @@
-<img src="assets/favicon.png" width="200px" height="150px" />
+<img src="assets/favicon.png" width="100px" height="50px" />

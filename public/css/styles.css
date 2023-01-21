@@ -303,7 +303,7 @@ figure {
 img,
 svg {
   vertical-align:middle;
-  object-position::content;
+  object-position:content;
 }
 
 table {
@@ -381,7 +381,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -438,8 +438,8 @@ legend + * {
 }
 
 [type=search] {
-  outline-offset: -2px;
-  -webkit-appearance: textfield;
+ outline-offset: -2px;
+-webkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -11469,8 +11469,70 @@ textarea.form-control-lg {
   }
 }
 html {
+  height: 100%;
   scroll-padding-top: calc(4.5rem - 1px);
 }
+.page-section {
+  padding: 6rem 0;
+}
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+  }
+}
+
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: green;
+  border-radius: 1rem;
+  border-color: green;
+}
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+.divider-custom .divider-custom-icon {
+  color: green;
+  font-size: 2rem;
+}
+.divider-custom.divider-light .divider-custom-line {
+  background-color:green;
+}
+.divider-custom.divider-light .divider-custom-icon {
+  color: green;
+}
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+.btn-social {
+  border-radius: 100%;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
 
 body {
   letter-spacing: 0.0625em;
@@ -11621,19 +11683,32 @@ body {
 }
 .about-1{
   margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 5px;
 }
+
 .about-1 h1{
   text-align: center;
   color: black;
   font-weight: bold;
+  margin-top: 5rem;
 }
 .about-1 p{
-  text-align: center;
-  padding: 3px;
+  text-align: justify;
+  padding: 45px;
   color: black;
+  max-width: 100rem;
+  font-size: 1rem;
 }
 
+iframe{
+  width: 250px;
+  height:180px;
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
 /*===========================
 adding style to about items 
 ============================*/
@@ -11726,45 +11801,47 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 @media (min-width: 992px) {
   .products-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid forestgreen;
+    border-left: 0.5rem solid green;
   }
 
-
-  /*
-}
-.products-section .project-text {
-  padding: 3rem;
-  font-size: 90%;
-}
-@media (min-width: 992px) {
-  .products-section .project-text {
-    padding: 5rem;
+  .product .product-item {
+    cursor:pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
   }
-  .products-section .project-text hr {
-    border-color: #64a19d;
-    border-width: 0.25rem;
-    width: 30%;
+  .product .product-item .product-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
   }
-}*/
-
-/* .signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-contact.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-} */
-/* .signup-section .form-signup input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: lowercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-} */
+  .product .product-item .product-item-caption:hover {
+    opacity: 1;
+  }
+  .product .product-item .product-item-caption .product-item-caption-content {
+    font-size: 1.5rem;
+  }
+  
+  .product-modal .btn-close {
+    color: #1abc9c;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .product-modal .product-modal-title {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 992px) {
+    .product-modal .product-modal-title {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
 
 .contact-section {
   padding-top: 5rem;
@@ -11812,5 +11889,5 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 
 .footer {
   padding: 1.5rem 0;
-  background:black;
-}
+  background: black;
+}}
