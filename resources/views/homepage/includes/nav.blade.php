@@ -10,9 +10,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#mission">Announcements</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#announcements">Announcements</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link btn btn-primary" href="{{url('/login')}}">Login</a></li>                   
                     </ul>
                 </div>
