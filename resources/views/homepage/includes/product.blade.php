@@ -11,14 +11,7 @@
                         </div>
                     </div>
               </div>
-              <div class="container">
-              <h2 class="page-section-heading text-center text-primary text-green-10">Click each Product</h2>
-                <!-- Icon Divider-->
-            <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+      <div class="container">
                 <!-- product Grid Items-->
                 <div class="row justify-content-center">
                     <!-- product Item 1-->
@@ -27,7 +20,7 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product2.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/product2.jpg" alt="..."/>
                         </div>
                     </div>
                     <!-- product Item 2-->
@@ -95,6 +88,7 @@
                     </div>
                 </div>
             </div>
+    </div>
         </section>
         
 

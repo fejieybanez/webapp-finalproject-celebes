@@ -11803,8 +11803,7 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid green;
   }
-
-  .product .product-item {
+  .product-item {
     cursor:pointer;
     position: relative;
     display: block;
@@ -11812,21 +11811,21 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
     border-radius: 0.5rem;
     overflow: hidden;
   }
-  .product .product-item .product-item-caption {
+  .product-item-caption {
     position: absolute;
     top: 0;
     left: 0;
     transition: all 0.2s ease-in-out;
     opacity: 0;
-    background-color: rgba(26, 188, 156, 0.9);
+    background-color: yellowgreen;
   }
-  .product .product-item .product-item-caption:hover {
+  .product-item-caption:hover {
     opacity: 1;
   }
-  .product .product-item .product-item-caption .product-item-caption-content {
-    font-size: 1.5rem;
+
+.product-item-caption-content {
+    font-size: 1rem;
   }
-  
   .product-modal .btn-close {
     color: #1abc9c;
     font-size: 2rem;
