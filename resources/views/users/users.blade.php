@@ -6,6 +6,14 @@
     </x-slot>
 
     <div class="py-12">
+        @if (session('status'))
+            <div class="max-w-7xl mx-auto sm:px-6:px-8 my-5">
+                <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-gray-800 dark_text-green-400" role="alert">
+                    <span class="font-medium">Success alert! </span> {{ session('status')}}
+                </div>
+            </div>
+        @endif
+
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
@@ -18,7 +26,7 @@
                 <button class="float-right rounded-full bg-green-500 p-1 hover:bg-green-700"> Add Users</button>
                 </a>
                
-
+            
                 <table class="table-auto w-full">
                         <thead>
                                 <tr>
@@ -34,9 +42,13 @@
                                     <td>{{ $user->name}}</td>
                                     <td class="text-center">{{ $user->email }}</td>
                                     <td class="text-center"> 
-                                        <button class="rounded-full bg-green-500 p-1 hover:bg-green-700"> Update</button>
-                                        <button class="rounded-full bg-green-500 p-1 hover:bg-green-700"> Delete</button>
-                                    </td>
+                                    <a href="{{ url('/users/update/' . $user->id) }}">
+                                         <button class="rounded-full bg-green-500 p-1 hover:bg-green-700"> Update</button>
+                                        </a>
+                                        <a href="{{ url('/users/update/' . $user->id) }}">
+                                         <button class="rounded-full bg-green-500 p-1 hover:bg-green-700"> Delete</button>
+                                    </a>
+                                        </td>
                             </tr>
                         @endforeach
 

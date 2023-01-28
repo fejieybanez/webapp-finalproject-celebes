@@ -4,7 +4,6 @@
 
 <div class="about-1">
          <h1> ABOUT US </h1>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31527.00264253144!2d125.51443755626678!3d8.983618015175159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301bfec5bcab52f%3A0x3078245c62f4703!2sCelebes%20Coconut%20Corporation!5e0!3m2!1sen!2sph!4v1674296357814!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          <p>Like the coconut trees that dot the tropical landscape of the Philippines, Celebes stands tall and proud today. 
             Its corporate odyssey began without much fanfare in 1981 when it manufactured wood products from timber sourced from its forest concession in Butuan City, Philippines located in the island of Mindanao.
             Yet from this modest start emerged one of the country’s largest export oriented enterprises, right at the onset of the New Millennium.</p>
@@ -48,10 +47,10 @@
                      <hr>
                      <p> As the No. 1 producer and exporter of world-class coconut food products in the Philippines, we offer our consumers the highest quality and organic coconut-based products.</p>
                      <ul>
-                     <li style="list-style-image:url('/assets/img/global-icon.png') width: -10px; height: -10px;">Coconut Product Global Supplier</li>
-                     <li style="list-style-image:url('/assets/img/global-icon.png') width: -10px; height: -10px;">Coconut Product National Producer</li>
-                     <li style="list-style-image:url('/assets/img/global-icon.png') width: -10px; height: -10px;">Coconut Agricultural Marketing Enthusiast</li>
-                     <li style="list-style-image:url('/assets/img/global-icon.png') width: -10px; height: -10px;">Coconut Product Innovator</li> 
+                     <li style="list-style:circle;">Coconut Product Global Supplier</li>
+                     <li style="list-style:circle;">Coconut Product National Producer</li>
+                     <li style="list-style:circle;">Coconut Agricultural Marketing Enthusiast</li>
+                     <li style="list-style:circle;">Coconut Product Innovator</li> 
                      </ul>
                     </div>
                  </div>

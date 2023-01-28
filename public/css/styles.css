@@ -6700,7 +6700,7 @@ textarea.form-control-lg {
 }
 
 .fixed-top {
-  position: fixed;
+  position: sticky;
   top: 0;
   right: 0;
   left: 0;
@@ -11544,9 +11544,11 @@ body {
 
 }
 
+
 #mainNav {
-  min-height: 3.5rem;
-  background-color: white;
+  min-height: 2.5rem;
+  background-color: green; 
+  margin-top:3rem; 
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11564,6 +11566,7 @@ body {
   padding: 1.9rem 0;
   margin-left: auto;
 }
+
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(darkgreen, 80%);
   outline: none;
@@ -11583,19 +11586,20 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color:white;
+    color:green;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 1.5rem 1rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: limegreen;
+    font-weight:800;
   }
   #mainNav .nav-link:hover {
     color: darkgreen;
   }
   #mainNav .nav-link:active {
-    color: #fff;
+    color: green;
   }
   #mainNav.navbar-shrink {
     background-color: white;
@@ -11609,7 +11613,7 @@ body {
   }
   #mainNav.navbar-shrink .nav-link {
     color: yellowgreen;
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: 1.5rem 1rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
@@ -11701,14 +11705,6 @@ body {
   max-width: 100rem;
   font-size: 1rem;
 }
-
-iframe{
-  width: 250px;
-  height:180px;
-  float: right;
-  border: 1px dotted black;
-  margin: 0px 0px 15px 20px;
-}
 /*===========================
 adding style to about items 
 ============================*/
@@ -11776,6 +11772,12 @@ hover means when you put your cursor over it
 .about-item:hover p{
   color: #fff;
 }
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover ul{
+  color: #fff;
+}
+
 .about-item:hover hr{
   background-color: #fff;
 }
@@ -11866,6 +11868,13 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
+}
+iframe{
+  width: 1348px;
+  height: 450px;
+  /* float: right; */
+  border: 1px dotted black;
+  /* margin: 0px 0px 15px 20px; */
 }
 .contact-section .social {
   margin-top: 2rem;

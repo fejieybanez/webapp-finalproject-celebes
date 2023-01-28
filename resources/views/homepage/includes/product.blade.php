@@ -1,6 +1,14 @@
  <!-- Product -->
    <section class="products-section bg-light" id="products">
     <div class="container px-4 px-lg-55">
+         <!-- Product Section Heading-->
+         <h2 class="page-section-heading text-center text-uppercase text-primary text-yellowgreen">Products</h2>
+                <!-- Icon Divider
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div> -->
                 <!-- Featured Product Row-->
           <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/product1.jpg" alt="..." width="650" height="20"/></div>

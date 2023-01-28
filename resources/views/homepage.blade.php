@@ -4,6 +4,17 @@
 @section('content')
 
         @include('homepage.includes.nav')
+        <!-- <div class="news-container">
+        <div class="title">
+            Announcement
+        </div>
+
+        <ul>
+            <li>
+                INSERT ANY TEXT HERE!
+            </li>
+        </ul>
+    </div>  -->
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
@@ -20,18 +31,18 @@
             @include('homepage.includes.about') 
 
          <!-- Announcement-->
-       <!-- <section class="mission-section text-center" id="Announcement">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-black mb-4">Corporate Mission</h2>
-                        <p class="text-black-50">
-                        To be the No. 1 producer and exporter of world-class coconut products in the Philippines 
-                        </p>
+\            <div class="news-container">
+                    <div class="title">
+                        Announcement
                     </div>
-                </div>
-            </div>
-        </section>-->
+
+                    <ul>
+                        <li>
+                            INSERT ANY TEXT HERE!
+                        </li>
+                    </ul>
+                </div> 
+        </section> <br>
 
        @include('homepage.includes.product')
 

@@ -40,3 +40,8 @@
                 </div>
             </div>
         </section>
+
+ <section class="location-section" id="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31527.00264253144!2d125.51443755626678!3d8.983618015175159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301bfec5bcab52f%3A0x3078245c62f4703!2sCelebes%20Coconut%20Corporation!5e0!3m2!1sen!2sph!4v1674296357814!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>

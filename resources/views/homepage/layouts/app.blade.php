@@ -14,38 +14,12 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/style1.css" rel="stylesheet" />
         <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
 
-        <!-- Latest compiled and minified CSS 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
-
-        <!-- jQuery library 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>-->
-
-        <!-- Latest compiled JavaScript 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <style> 
-        *{
-            font-family: 'Source Code Pro', monospace;
-        } 
-        .col-sm-4 div{
-            padding: 50px
-            }
-        .col-sm-4 div p{ 
-            text-align:justify;
-            }
-        .col-sm-4 div h3{
-            border-bottom: 1px solid #000;
-            padding-bottom: 10px;
-             margin-bottom: 30px; 
-            }
-        .col-sm-8 img{
-            width: 70%;
-            height:300px;
-            position:center;
-            } </style> -->
     </head>
     <body id="page-top">
         
