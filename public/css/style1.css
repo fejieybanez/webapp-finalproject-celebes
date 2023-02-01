@@ -51,7 +51,7 @@
 
 @keyframes scroll {
     from {
-        transform: translateX(500%);
+        transform: translateX(165%);
     }
 
     to {

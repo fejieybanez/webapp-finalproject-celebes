@@ -23,7 +23,7 @@
                     {{$header}}
                 </h2> 
                 <a href="{{ url('/users/add') }}">
-                <button class="float-right rounded-full bg-green-500 p-1 hover:bg-green-700"> Add Users</button>
+                <button class="font-bold float-right rounded-full bg-green-500 p-2 hover:bg-green-700"> Add Users</button>
                 </a>
                
             
@@ -36,17 +36,20 @@
                             </tr>
                         </thead>
                         <tbody>
-
+  
                         @foreach ($users as $user)
                         <tr>
                                     <td>{{ $user->name}}</td>
                                     <td class="text-center">{{ $user->email }}</td>
                                     <td class="text-center"> 
                                     <a href="{{ url('/users/update/' . $user->id) }}">
-                                         <button class="rounded-full bg-green-500 p-1 hover:bg-green-700"> Update</button>
+                                         <button class="font-bold rounded-full bg-green-500 p-2 hover:bg-green-700"> Update</button>
                                         </a>
-                                        <a href="{{ url('/users/update/' . $user->id) }}">
-                                         <button class="rounded-full bg-green-500 p-1 hover:bg-green-700"> Delete</button>
+                                        <a href="{{ url('/users/change-password/' . $user->id) }}">
+                                         <button class="font-bold rounded-full bg-blue-500 p-2 hover:bg-blue-700">Password</button>
+                                        </a>
+                                        <a href="{{ url('/users/delete/' . $user->id) }}">
+                                         <button class="font-bold rounded-full bg-red-500 p-2 hover:bg-red-700"> Delete</button>
                                     </a>
                                         </td>
                             </tr>

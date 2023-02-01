@@ -3041,7 +3041,7 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color:royalblue;
+  background-color:yellowgreen;
   border-color: #21d611b4;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -11475,8 +11475,8 @@ html {
 .page-section {
   padding: 6rem 0;
 }
-.page-section .page-section-heading {
-  font-size: 2.25rem;
+ .page-section-heading h2 {
+  font-size: 5rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
@@ -11547,7 +11547,7 @@ body {
 
 #mainNav {
   min-height: 2.5rem;
-  background-color: green; 
+  background-color: white; 
   margin-top:3rem; 
 }
 #mainNav .navbar-toggler {
@@ -11644,23 +11644,25 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  /* min-height: 35rem; */
   padding: 15rem 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead7.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead6.jpg");
   backdrop-filter: blur(500px);
   -webkit-backdrop-filter: blur(500px);
-  height: 100%;
+  /* height: 100%; */
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  margin-bottom: 0;
 }
 .masthead h1, .masthead .h1{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-weight: bold;
 }
 .masthead h2, .masthead .h2 {
+  font-family:Arial, Helvetica, sans-serif;
   max-width: 20rem;
   font-size: 1rem;
 }
@@ -11685,7 +11687,17 @@ body {
     font-size: 1.25rem;
   }
 }
+.about-section{
+  padding-top:1rem;
+  margin-top:0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/about2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 .about-1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   margin: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -11693,17 +11705,23 @@ body {
 }
 
 .about-1 h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  color: black;
+  color: white;
   font-weight: bold;
-  margin-top: 5rem;
+  margin-top: 2rem;
+  font-size:3rem;
 }
 .about-1 p{
-  text-align: justify;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
   padding: 45px;
   color: black;
   max-width: 100rem;
   font-size: 1rem;
+  background-color:white;
+  margin-top: 3rem;
+  box-shadow: 0 0 9px rgba(0,0,0.6);
 }
 /*===========================
 adding style to about items 
@@ -11715,6 +11733,7 @@ adding style to about items
   background-color:#d5e0df;
   padding: 80px 50px;
   box-shadow: 0 0 9px rgba(0,0,0.6);
+  
 }
 
 /*======================================
@@ -11739,6 +11758,7 @@ adding style to h3(heading 3) of each item
   font-weight:normal;
   text-align:justify;
 }
+
 #more {display: none;}
 
 .about-item ul{
@@ -11795,6 +11815,7 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 }
 
 .products-section {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   padding: 0;
 }
 .products-section .featured-text {
@@ -11843,8 +11864,8 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
       line-height: 2.5rem;
     }
   }
-
 .contact-section {
+  
   padding-top: 5rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-contact2.jpg");
   background-position: center;
@@ -11869,12 +11890,43 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
   border-width: 0.25rem;
   width: 3rem;
 }
-iframe{
-  width: 1348px;
-  height: 450px;
-  /* float: right; */
-  border: 1px dotted black;
-  /* margin: 0px 0px 15px 20px; */
+.iframe{
+  position: relative;
+  display:block;
+  width:90vw;
+  height: calc(.75 * 90vw);
+  max-width:100%;
+  max-height: 600px;
+  margin:1em auto;
+  border:solid 1px gray;
+  box-shadow:2px 2px 2px silver;
+  border-radius: 4px;
+}
+/* .map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:40%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+} */
 }
 .contact-section .social {
   margin-top: 2rem;
@@ -11898,4 +11950,4 @@ iframe{
 .footer {
   padding: 1.5rem 0;
   background: black;
-}}
+}

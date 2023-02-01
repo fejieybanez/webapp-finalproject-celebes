@@ -2,7 +2,7 @@
    <section class="products-section bg-light" id="products">
     <div class="container px-4 px-lg-55">
          <!-- Product Section Heading-->
-         <h2 class="page-section-heading text-center text-uppercase text-primary text-yellowgreen">Products</h2>
+         <h2 class="page-section-heading text-center text-uppercase text-primary font-weight-bold text-yellowgreen">Products</h2>
                 <!-- Icon Divider
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>

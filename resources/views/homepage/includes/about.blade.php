@@ -4,7 +4,7 @@
 
 <div class="about-1">
          <h1> ABOUT US </h1>
-         <p>Like the coconut trees that dot the tropical landscape of the Philippines, Celebes stands tall and proud today. 
+         <p>Celebes is the first company in the Philippines to manufacture and export the Organic Certified Extra Virgin Coconut Oil since 1998. Like the coconut trees that dot the tropical landscape of the Philippines, Celebes stands tall and proud today. 
             Its corporate odyssey began without much fanfare in 1981 when it manufactured wood products from timber sourced from its forest concession in Butuan City, Philippines located in the island of Mindanao.
             Yet from this modest start emerged one of the country’s largest export oriented enterprises, right at the onset of the New Millennium.</p>
 </div> 
@@ -19,7 +19,7 @@
                      <h3>Corporate Commitments</h3>
                      <hr>
                      <p> Among its first area of concern is adequate capitalization to help stimulate and propel business growth. Celebes opened its financing company in 1989 and continues to service businesses in areas where Celebes operates. </p>
-                     <p>  In support of its Corporate Mission to be the No. 1 producer and exporter of world-class coconut food products in the Philippines, it aims to meet and satisfy <span id="dots">...</span><span id="more"> international food safety requirements. Year after year, it strategically invests in machinery and equipment to meet customer demands and delivery deadlines. The company also engages in continuous manpower training to ensure optimum returns in all aspects of the company’s operations. </span></p>
+                     <p>  In support of its Corporate Mission to be the No. 1 producer and exporter of world-class coconut food products in the Philippines, it aims to meet and satisfy internatio<span id="dots">...</span><span span id="more">nal food safety requirements. Year after year, it strategically invests in machinery and equipment to meet customer demands and delivery deadlines. The company also engages in continuous manpower training to ensure optimum returns in all aspects of the company’s operations. </span></p>
                      <button onclick="myFunction()" id="myBtn">Read more</button> 
                      <script>
                                     function myFunction() {

@@ -95,9 +95,12 @@ class UserController extends Controller
 
         session()->flash('status', 'Updated User Successfully!');
 
-        return redirect('users/update/' .$user->id);
+        return redirect('/users');
+        
+        // return redirect('users/update/' .$user->id);
     }
 
+//            
     /**
      * Remove the specified resource from storage.
      *
@@ -106,6 +109,11 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        User::where('id','=',$id)->delete();
+        
+        session()->flash('status', 'Deleted User Successfully!');
+
+        return redirect('/users');
     }
 }
+ 

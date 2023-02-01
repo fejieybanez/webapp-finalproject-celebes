@@ -30,19 +30,21 @@
        
             @include('homepage.includes.about') 
 
-         <!-- Announcement-->
-\            <div class="news-container">
+         <!-- Announcement -->
+            <div class="news-container">
                     <div class="title">
                         Announcement
                     </div>
 
                     <ul>
-                        <li>
-                            INSERT ANY TEXT HERE!
-                        </li>
+                        @foreach($sliders as $SliderItem)
+                            <li>
+                            {{$SliderItem->description}}
+                            </li>
+                        @endforeach
                     </ul>
                 </div> 
-        </section> <br>
+        </section>
 
        @include('homepage.includes.product')
 
