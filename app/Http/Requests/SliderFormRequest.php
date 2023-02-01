@@ -36,11 +36,11 @@ class SliderFormRequest extends FormRequest
                 'max:800'
             ],
 
-            // 'image' => [
-            //     'nullable',
-            //     'image',
-            //     'mimes:jpg,jpeg,png'
-            // ],
+            'image' => [
+                'nullable',
+                'image',
+                'mimes:jpg,jpeg,png'
+            ],
 
             // 'status' => [
             //     'nullable',

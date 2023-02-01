@@ -39,7 +39,7 @@ class SliderController extends Controller
         Slider::create([
             // 'title' => $validatedData['title'],
             'description' => $validatedData['description'],
-            // 'image' => $validatedData['image'],
+            'image' => $validatedData['image'],
             // 'status' => $validatedData['status'],
         ]);
         

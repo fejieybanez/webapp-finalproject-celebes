@@ -17,8 +17,13 @@
         <link href="css/style1.css" rel="stylesheet" />
         <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
+
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
+
+       
 
     </head>
     <body id="page-top">
@@ -47,5 +52,6 @@
         });
 
         </script>
+         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     </body>
 </html>

@@ -11547,13 +11547,13 @@ body {
 
 #mainNav {
   min-height: 2.5rem;
-  background-color: white; 
+  background-image: linear-gradient(to right, limegreen , goldenrod);
   margin-top:3rem; 
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: white;
   border: 1px solid #64a19d;
   margin-right: 0%;
 }
@@ -11561,7 +11561,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: green;
+  color: white;
   font-weight: 700;
   padding: 1.9rem 0;
   margin-left: auto;
@@ -11586,13 +11586,13 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color:green;
+    color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 1.5rem 1rem;
-    color: limegreen;
+    color: white;
     font-weight:800;
   }
   #mainNav .nav-link:hover {
@@ -11691,6 +11691,8 @@ body {
   padding-top:1rem;
   margin-top:0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/about2.jpg");
+  backdrop-filter: blur(500px);
+  -webkit-backdrop-filter: blur(500px);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11716,10 +11718,10 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 45px;
-  color: black;
+  color: white;
   max-width: 100rem;
   font-size: 1rem;
-  background-color:white;
+  background-image: linear-gradient(to right, limegreen , goldenrod);
   margin-top: 3rem;
   box-shadow: 0 0 9px rgba(0,0,0.6);
 }
@@ -11729,8 +11731,8 @@ adding style to about items
 
 .about-item{
   margin-bottom: 20px;
-  margin-top: 20px;
-  background-color:#d5e0df;
+  margin-top: 10px;
+  background:white;
   padding: 80px 50px;
   box-shadow: 0 0 9px rgba(0,0,0.6);
   
@@ -11816,7 +11818,8 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 
 .products-section {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  padding: 0;
+  background: var(--bs-green);
+  padding: 1rem;
 }
 .products-section .featured-text {
   padding: 2rem;
@@ -11867,7 +11870,7 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 .contact-section {
   
   padding-top: 5rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-contact2.jpg");
+  background-image: linear-gradient(to right, green , yellow);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11949,5 +11952,49 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 
 .footer {
   padding: 1.5rem 0;
-  background: black;
+  background-image: linear-gradient(to right, green , yellow);
+}
+
+
+
+
+/* image-slider */
+
+
+*{
+  box-sizing: border-box;
+}
+
+.carousel-cell{
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center center;
+  object-fit: contain;
+}
+
+  
+.carousel-cell::before{
+  display: block;
+  content: '';
+}
+
+@media (max-width: 768px) {
+  .carousel-cell {
+    width: 101%;
+    height: 153px;
+    background-size: contain;
+  }
+
+  h2.section-heading{
+    text-align: center !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size:4rem;
+  }
 }

@@ -25,6 +25,10 @@
                             <label class="text-purple-50 font-bold">Description</label>
                             <textarea name = "description" class = "block mt-1 w-full text-black" rows = "3" placeholder="Input description..." required></textarea>
                         </div>
+                        <div class = "mb-3">
+                            <label>Image</label>
+                            <input type = "file" name="image" class = "block mt-1">
+                        </div>
                         <div class = "mb-4 text-center">
                             <button type="Submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 border border-green-500 rounded">Submit</button>
                         </div>

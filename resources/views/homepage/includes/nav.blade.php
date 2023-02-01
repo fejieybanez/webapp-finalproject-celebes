@@ -21,7 +21,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#announcements">Announcements</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="#announcement">Announcement</a></li>
                         <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>

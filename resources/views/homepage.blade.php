@@ -28,6 +28,20 @@
             </div>
         </header> 
        
+        <section class="page-section bg-light" id="announcement">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading font-bold text-uppercase">Announcement</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                
+                <div class="carousel" data-flickity='{ "autoPlay": true }'>
+                @foreach ($sliders as $sliderItem)
+                    <div class="carousel-cell" style="background-image: url({{ asset($sliderItem->image)}})"></div>
+                @endforeach
+                </div>
+            </div>
+        </section>
+
             @include('homepage.includes.about') 
 
          <!-- Announcement -->
@@ -43,7 +57,7 @@
                             </li>
                         @endforeach
                     </ul>
-                </div> 
+            </div> 
         </section>
 
        @include('homepage.includes.product')

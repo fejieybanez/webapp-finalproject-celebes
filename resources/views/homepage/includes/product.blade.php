@@ -28,7 +28,7 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product2.jpg" alt="..."/>
+                            <img class="img-fluid" src="assets/img/1.png" alt="..."/>
                         </div>
                     </div>
                     <!-- product Item 2-->
@@ -37,7 +37,7 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product3.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/1.png" alt="..." />
                         </div>
                     </div>
                     <!-- product Item 3-->
@@ -46,7 +46,7 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product4.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/3.png" alt="..." />
                         </div>
                     </div>
                     <!-- product Item 4-->
@@ -55,7 +55,7 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product5.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/4.png" alt="..." />
                         </div>
                     </div>
                     <!-- product Item 5-->
@@ -64,7 +64,7 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product6.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/5.png" alt="..." />
                         </div>
                     </div>
                     <!-- product Item 6-->
@@ -73,7 +73,7 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product7.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/6.png" alt="..." />
                         </div>
                     </div>
                     <!-- product Item 7-->
@@ -82,7 +82,7 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product8.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/7.png" alt="..." />
                         </div>
                     </div>
                     <!-- product Item 8-->
@@ -91,7 +91,16 @@
                             <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/product9.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/8.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- product Item 9-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="product-item mx-auto" data-bs-toggle="modal" data-bs-target="#productModal9">
+                            <div class="product-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="product-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/9.png" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -119,7 +128,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- product Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/product2.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/1.png" alt="..." />
                                     <!-- product Modal - Text-->
                                     <p class="mb-4">It is actually the juice found inside a fresh coconut. Its water is an all-natural electrolyte-filled and it is one of the nature's most refreshing drinks consumed worldwide for its nutritious and health benefiting properties.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -151,7 +160,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- product Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/product3.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/2.png" alt="..." />
                                     <!-- product Modal - Text-->
                                     <p class="mb-4">A sweet, milky white cooking base derived from the meat of a mature coconut. The color and taste of the milk can be attributed to the high oil content ans sugar. It is extracted from the grated flesh of the mature coconut.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -183,7 +192,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- product Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/product4.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/3.png" alt="..." />
                                     <!-- product Modal - Text-->
                                     <p class="mb-4">A creamy tropical taste that is utilized mostly to make pastries, additive flavors to your favorite food or dessert recipes, soup and other cooking. Coconut milk provides 50% more calcium than dairy milk.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -215,7 +224,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- product Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/product5.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/4.png" alt="..." />
                                     <!-- product Modal - Text-->
                                     <p class="mb-4">It is a healthy cooking option, which can likewise be used to condition the skin and hair care. Virgin coconut oil is known for its pleasant scent, taste, antioxidants, medium chain fatty acids (MCFA), and vitamins, not to mention a variety of other things.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -247,7 +256,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- product Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/product6.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/5.png" alt="..." />
                                     <!-- product Modal - Text-->
                                     <p class="mb-4">It is known for completing the exact Quality Standard Tests that ensure purity, as well as chemical and microbiological superiority, before handed over the best tables around the globe.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -279,7 +288,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- product Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/product7.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/6.png" alt="..." />
                                     <!-- product Modal - Text-->
                                     <p class="mb-4">It is the unsweetened dehydrated fresh meat of a mature fruit of coconut ground to a semi-solid white creamy paste. It is fundamentally the same to coconut milk however contains less water. The difference is mainly consistency.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -311,7 +320,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- product Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/product8.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/7.png" alt="..." />
                                     <!-- product Modal - Text-->
                                     <p class="mb-4">It originates from the seeds of Coconut produced using dried whole coconut (Copra). RDB Coconut oil is normally utilized as a part of numerous skincare formulations and products including soap, lotion, creams, ointments and toiletry industry.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -343,9 +352,41 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- product Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/product9.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/8.png" alt="..." />
                                     <!-- product Modal - Text-->
                                     <p class="mb-4">Very crispy and have high nutritional value banana chips made with all natural ingredients and with no artificial flavors, colors, or preservatives.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- product Modal 9-->
+                <div class="product-modal modal fade" id="productModal6" tabindex="-1" aria-labelledby="productModal9" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- product Modal - Title-->
+                                    <h2 class="product-modal-title text-primary text-uppercase text-green">Organic Coconut Flour</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- product Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/9.png" alt="..." />
+                                    <!-- product Modal - Text-->
+                                    <p class="mb-4">Celebes Coconut Flour is produced from the defatted coconut meat. It is a delicious, healthy, alternative to wheat flour. It is high in fiber, low in digestible carbohydrate, is a good source of protein, and is gluten-free. Coconut flour can be used to make a variety of delicious baked goods, snacks, desserts, and main dishes. Coconut Flour provides many health benefits.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
