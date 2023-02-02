@@ -4,17 +4,7 @@
 @section('content')
 
         @include('homepage.includes.nav')
-        <!-- <div class="news-container">
-        <div class="title">
-            Announcement
-        </div>
-
-        <ul>
-            <li>
-                INSERT ANY TEXT HERE!
-            </li>
-        </ul>
-    </div>  -->
+       
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
@@ -31,7 +21,7 @@
         <section class="page-section bg-light" id="announcement">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading font-bold text-uppercase">Announcement</h2>
+                    <h2 class="section-heading text-bold text-black text-uppercase">Announcement</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 
                 <div class="carousel" data-flickity='{ "autoPlay": true }'>

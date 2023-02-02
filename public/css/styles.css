@@ -11965,6 +11965,12 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
   box-sizing: border-box;
 }
 
+.announcement-section {
+  padding-top: 5rem;
+  background-image: linear-gradient(to right, green , yellow);
+}
+
+
 .carousel-cell{
   width: 66%;
   height: 400px;
@@ -11990,11 +11996,14 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
 
   h2.section-heading{
     text-align: center !important;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    margin-top: 1rem;
-    font-size:4rem;
+    margin-top: 2rem;
   }
+}
+.section-heading h2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size:4rem;
 }

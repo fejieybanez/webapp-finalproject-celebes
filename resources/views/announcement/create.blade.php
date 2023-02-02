@@ -17,7 +17,7 @@
 
 
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white bg-stone-500 overflow-hidden shadow-sm sm:rounded-lg">
+            <div class="bg-white bg-green-500 overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="p-6 text-stone-900 dark:text-stone-100">
                     <form method="POST" action="{{ url('/sliders/create') }}" enctype = "multipart/form-data">
                         @csrf
@@ -30,7 +30,7 @@
                             <input type = "file" name="image" class = "block mt-1">
                         </div>
                         <div class = "mb-4 text-center">
-                            <button type="Submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 border border-green-500 rounded">Submit</button>
+                            <button type="Submit" class="bg-blue-500 hover:bg-green-700 text-white font-bold py-1 px-2 border border-blue-500 rounded">Submit</button>
                         </div>
                 </div>
             </div>
