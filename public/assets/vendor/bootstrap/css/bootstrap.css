@@ -3831,7 +3831,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: #f3869a;
   text-decoration: none;
   background: none;
   border: 0;
@@ -3843,7 +3843,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: var(--bs-nav-link-hover-color);
+  color: #ffc1cc;
 }
 .nav-link:focus-visible {
   outline: 0;

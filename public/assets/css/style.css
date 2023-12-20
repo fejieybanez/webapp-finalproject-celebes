@@ -86,17 +86,17 @@ h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #cda45e;
+  border: 2px solid #ff6890;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #cda45e;
+  color: #ff6890;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #cda45e;
+  background: #f3869a;
   color: #1a1814;
 }
 
@@ -197,6 +197,8 @@ h6 {
 
 #header .logo a {
   color: #fff;
+  font-weight: 600;
+  font-size:large;
 }
 
 #header .logo img {
@@ -263,6 +265,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .navbar a i,
@@ -407,7 +410,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #cda45e;
+  color: #ff6890;
 }
 
 .navbar-mobile .getstarted,
@@ -498,6 +501,7 @@ h6 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
+  font-weight: lighter;
 }
 
 #hero .btns {
@@ -649,9 +653,14 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: #2a2b2b;
-}
+.section {
+    background: rgba(6, 194, 241, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 
 .section-title {
   padding-bottom: 40px;
@@ -665,8 +674,9 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
+  text-emphasis-style: bold;
 }
 
 .section-title h2::after {
@@ -674,7 +684,8 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255);
+  color: #ffffff;
   margin: 4px 10px;
 }
 
@@ -684,7 +695,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #fc8eac;
+  color: #ff6890;
 }
 
 /*--------------------------------------------------------------
@@ -753,7 +764,7 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(57, 65, 65, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -768,7 +779,7 @@ section {
 
 .about .about-img img {
   max-width: 100%;
-  border: 4px solid rgba(255, 255, 255, 0.2);
+  border: 4px solid rgba(134, 225, 247, 0.877);
   position: relative;
 }
 
@@ -780,8 +791,8 @@ section {
   height: 60px;
   z-index: 1;
   content: "";
-  border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
+  border-left: 5px solid #f3869a;
+  border-top: 5px solid #f3869a;
   transition: 0.5s;
 }
 
@@ -793,8 +804,8 @@ section {
   height: 60px;
   z-index: 2;
   content: "";
-  border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
+  border-right: 5px solid #f3869a;
+  border-bottom: 5px solid #f3869a;
   transition: 0.5s;
 }
 
@@ -814,11 +825,13 @@ section {
 
 .about .content {
   position: relative;
+  text-align: justify;
 }
 
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
+  text-align: justify;
 }
 
 .about .content ul {
@@ -833,11 +846,12 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: #ff6890;
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 @media (min-width: 1024px) {
@@ -849,11 +863,29 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+.why-us{
+  background: url("../img/why.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
+.why-us:before {
+  content: "";
+  background: rgba(73, 92, 97, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: rgba(141, 190, 186, 0.6);
+  /* background: transparent;
+  backdrop-filter: blur(15px); */
+  background: rgb(3, 128, 117);
 }
 
 .why-us .box span {
@@ -868,14 +900,15 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  color: #dddddd;
   font-size: 15px;
   margin: 0;
   padding: 0;
+  text-align: justify;
 }
 
 .why-us .box:hover {
@@ -888,6 +921,7 @@ section {
 .why-us .box:hover h4,
 .why-us .box:hover p {
   color: #fff;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -932,7 +966,7 @@ section {
   width: 70px;
   border-radius: 50%;
   float: left;
-  border: 5px solid rgba(29, 151, 155, 0.692);
+  border: 3px solid #fc8eac;
 }
 
 .menu .menu-content {
@@ -965,7 +999,7 @@ section {
 }
 
 .menu .menu-content a:hover {
-  color: #cda45e;
+  color: #ffc1cc;
 }
 
 .menu .menu-content span {
@@ -974,7 +1008,7 @@ section {
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #cda45e;
+  color: #ffc1cc;
 }
 
 .menu .menu-ingredients {
@@ -1043,7 +1077,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
+  border: 3px solid #ffc1cc;
   border-top-color: #1a1814;
   animation: animate-loading 1s linear infinite;
 }
@@ -1070,7 +1104,7 @@ section {
 
 .book-a-table .php-email-form input:focus,
 .book-a-table .php-email-form textarea:focus {
-  border-color: #cda45e;
+  border-color: #ff6890;
 }
 
 .book-a-table .php-email-form input {
@@ -1082,7 +1116,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit] {
-  background: #cda45e;
+  background: #ff6890;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1091,12 +1125,29 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #d3af71;
+  background: #ffc1cc;
 }
 
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials{
+  background: url("../img/why.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
+.testimonials:before {
+  content: "";
+  background: rgba(87, 113, 119, 0.61);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -1113,11 +1164,12 @@ section {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.2);
+  border: 6px solid #f3869a;
 }
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
+  text-align: justify;
   font-weight: bold;
   margin: 10px 0 5px 45px;
   color: white;
@@ -1131,7 +1183,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #d3af71;
+  color: #fc8eac;
   font-size: 26px;
 }
 
@@ -1150,9 +1202,11 @@ section {
 
 .testimonials .testimonial-item p {
   font-style: italic;
+  text-align: justify;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #26231d;
+  background: transparent;
+  backdrop-filter: blur(20px);
   position: relative;
   border-radius: 6px;
   position: relative;
@@ -1172,7 +1226,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
+  background-color: #fc8eac;
 }
 
 /*--------------------------------------------------------------
@@ -1192,104 +1246,180 @@ section {
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Chefs
---------------------------------------------------------------*/
-.chefs .member {
-  text-align: center;
-  margin-bottom: 20px;
-  background: #343a40;
-  position: relative;
-  overflow: hidden;
+.announcement-section {
+  padding-top: 3rem;
+  /* background-image: linear-gradient(to right, green , yellow); */
+  background: #18d26e;
 }
 
-.chefs .member .member-info {
-  opacity: 0;
+.carousel-cell{
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center center;
+  object-fit: contain;
+}
+
+  
+.carousel-cell::before{
+  display: block;
+  content: '';
+}
+
+@media (max-width: 768px) {
+  .carousel-cell {
+    width: 101%;
+    height: 153px;
+    background-size: contain;
+  }
+
+  h2.section-heading{
+    text-align: center !important;
+    margin-top: 2rem;
+  }
+}
+.section-heading h2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size:4rem;
+}
+.news-container {
   position: absolute;
-  bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-  transition: 0.2s;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
 }
 
-.chefs .member .member-info-content {
+.news-container .title {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10px;
-  transition: bottom 0.4s;
+  background: #fc8eac;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  color: white;
+  font-weight: bold;
+  z-index: 200;
 }
 
-.chefs .member .member-info-content h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
+.news-container ul {
+
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  animation: scroll 25s infinite linear;
 }
 
-.chefs .member .member-info-content span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #fff;
+.news-container ul li {
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding: 10px 24px;
+  color: #fc8eac;
+  min-width: 100%;
+  font-weight: bold;
+  position: relative;
 }
 
-.chefs .member .social {
+.news-container ul li::after {
+  content:"";
+  width: 1px;
+  height: 100%;
+  color: white;
   position: absolute;
-  left: 0;
-  bottom: -38px;
+  top: 0;
   right: 0;
-  height: 48px;
-  transition: bottom ease-in-out 0.4s;
-  text-align: center;
 }
 
-.chefs .member .social a {
-  transition: color 0.3s;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
+.news-container ul li:last-child::after {
+  display: none;
 }
 
-.chefs .member .social a:hover {
-  color: #cda45e;
+@keyframes scroll {
+  from {
+      transform: translateX(500%);
+  }
+
+  to {
+      transform: translateX(-1083px);
+
+  }
 }
 
-.chefs .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 16px;
+  }
 }
-
-.chefs .member:hover .member-info {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
-  opacity: 1;
-  transition: 0.4s;
-}
-
-.chefs .member:hover .member-info-content {
-  bottom: 60px;
-  transition: bottom 0.4s;
-}
-
-.chefs .member:hover .social {
-  bottom: 0;
-  transition: bottom ease-in-out 0.4s;
-}
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+/* .contact{
+  background:#18d26e;
+} */
+
+.contact{
+  background: url("../img/cont-bg.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
+.contact .contact-img {
+  position: relative;
+  transition: 0.5s;
+}
+
+.contact .contact-img img {
+  max-width: 100%;
+  /* border: 4px solid rgba(243, 137, 234, 0.877); */
+  position: relative;
+}
+
+.contact .contact-img::before {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  content: "";
+  border-left: 5px solid #f3869a;
+  border-top: 5px solid #f3869a;
+  transition: 0.5s;
+}
+
+.contact .contact-img::after {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  content: "";
+  border-right: 5px solid #f3869a;
+  border-bottom: 5px solid #f3869a;
+  transition: 0.5s;
+}
+
+.contact .contact-img:hover {
+  transform: scale(1.03);
+}
 .contact .info {
   width: 100%;
 }
-
 .contact .info i {
   font-size: 20px;
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: #ff6890;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1302,6 +1432,8 @@ section {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
+  color: black;
+  font-weight:900;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1309,7 +1441,8 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #bab3a6;
+  font-weight:500;
+  color: #ff6890;
 }
 
 .contact .info .open-hours,
@@ -1430,7 +1563,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black;
+  background: rgba(29, 151, 155, 0.692);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;

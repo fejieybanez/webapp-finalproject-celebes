@@ -38,10 +38,10 @@
                             <tr class="border border-black-500 md:border-none block md:table-row absolute -top-full md:top-auto -left-full md:left-auto  md:relative ">
                             <!-- <th class = "border-solid border-2 border-light-blue-500 p-1 bg-red-300">ID</th> -->
                             {{-- <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Title</th> --}}
-                            <th class="text-center bg-green-600 p-2 text-white font-bold md:border md:border-yellow-500 text-left block md:table-cell">Description</th>
-                            <th class="bg-green-600 p-2 text-white font-bold md:border md:border-yellow-500 text-center block md:table-cell">Image</th> 
+                            <th class="text-center bg-gray-600 p-2 text-white font-bold md:border md:border--500 text-left block md:table-cell">Description</th>
+                            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-blue-500 text-center block md:table-cell">Image</th> 
                             <!-- <th class = "border-solid border-2 border-light-blue-500 p-1 bg-red-300">Status</th> -->
-                            <th class="bg-blue-600 p-2 text-white font-bold md:border md:border-yellow-500 text-center block md:table-cell">Action</th>
+                            <th class="bg-green-600 p-2 text-white font-bold md:border text-center block md:table-cell">Action</th>
                             </tr>
                             </thead>
                             <tbody class="block md:table-row-group">
