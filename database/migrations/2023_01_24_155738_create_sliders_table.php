@@ -11,7 +11,7 @@ return new class extends Migration
      *
      * @return void
      */
-
+//Creates the database table named "sliders" when the migration is run
     public function up()
     {
         Schema::create('sliders', function (Blueprint $table) {
@@ -27,6 +27,7 @@ return new class extends Migration
      *
      * @return void
      */
+    // Deletes the "sliders" table if the migration needs to be reversed
     public function down()
     {
         Schema::dropIfExists('sliders');

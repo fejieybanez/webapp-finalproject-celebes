@@ -1,4 +1,5 @@
-<x-app-layout>
+<x-app-layout> 
+    <!-- Renders a page for viewing and managing announcements  -->
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Announcement') }}
@@ -14,10 +15,11 @@
                 </div>
             </div>
         @endif
-
+<!-- Presents a clear heading "Announcement List" for visual organization -->
         <div class="">
     <h3 class="text-center text-2xl font-bold text-orange-50">Announcement List</h3>
 </div>
+<!-- Provides a button to create new announcements, redirecting to a separate form -->
 {{-- <div class="flex items-center justify-center my-8">
     <a href="{{ url('/sliders/create')}}" class="bg-white-500 hover:bg-indigo-600 text-black font-medium py-2 px-4 rounded-lg">
         Add Slider
@@ -30,7 +32,10 @@
             </button>
         </a>
     </div>
-
+<!-- Displays a table containing existing announcements with the following columns:
+- Description: Shows the text content of each announcement.
+- Image: Displays the associated image for each announcement.
+- Action: Offers buttons for editing or deleting individual announcements. -->
     <div class="mx-auto mt-8">
                     {{-- <table class="table-auto w-full text-center"> --}}
                     <table class="min-w-full border-collapse block md:table">

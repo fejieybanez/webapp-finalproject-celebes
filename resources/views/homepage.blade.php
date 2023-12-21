@@ -24,26 +24,34 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" integrity="sha384-wONeM9RPsGvjgK4zO6dw5XiZZ6EG4JcfCFL/AsX3BRfKA9F9L5kaQQ3e5DRu2mYc" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha384-oZRasf5C7LfiSA8Q+3mL4xkO1rRSKLGbN5P9TZ9z8TfNp4yC3K2pNgyMIJkA6MlL" crossorigin="anonymous"></script>
-
+  <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" integrity="sha384-wONeM9RPsGvjgK4zO6dw5XiZZ6EG4JcfCFL/AsX3BRfKA9F9L5kaQQ3e5DRu2mYc" crossorigin="anonymous"> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha384-oZRasf5C7LfiSA8Q+3mL4xkO1rRSKLGbN5P9TZ9z8TfNp4yC3K2pNgyMIJkA6MlL" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">       
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Restaurantly
-  * Updated: Sep 20 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
+  <!-- This javascript is intended to make sliders in the announcement section work. Once the user added announcements, image will be displayed in a slider -->
+ <!-- JavaScript -->
+ <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+        <script type="text/javascript">
+            $('.main-carousel').flickity({
+  // options
+        cellAlign: 'left',
+        wrapAround: true,
+        freeScroll: true
+        });
+
+        </script>
+         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
 
   @include('homepage.includes.nav')
 
+
   <!-- ======= Hero Section ======= -->
+  <!-- everything makita sa home -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
@@ -58,16 +66,16 @@
         </div>
         <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
           <a href="https://youtube.com/embed/Ez_5m5z5ymk?si=6uK3RgA7P2prcTcZ" class="glightbox play-btn"></a>
-        </div> 
-
+        </div>
       </div>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
-
+<!-- since ang about is giseparate man ug file para di ra kaayo taas ni nga file, we should link it here para maapil ra gihapon syas landing page -->
   @include('homepage.includes.about') 
 
+  <!--  -->
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
@@ -108,43 +116,16 @@
       </div>
     </section><!-- End Why Us Section -->
 
-    <!-- <section class="page-section bg-light" id="announcement">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-bold text-black text-uppercase">Announcement</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                
-                <div class="carousel" data-flickity='{ "autoPlay": true }'>
-                @foreach ($sliders as $sliderItem)
-                    <div class="carousel-cell" style="background-image: url({{ asset($sliderItem->image)}})"></div>
-                @endforeach
-                </div>
-            </div>
-        </section> -->
-
-         <!-- Announcement -->
-         <!-- <div class="news-container">
-                    <div class="title">
-                        Announcement
-                    </div>
-
-                    <ul>
-                        @foreach($sliders as $SliderItem)
-                            <li>
-                            {{$SliderItem->description}}
-                            </li>
-                        @endforeach
-                    </ul>
-            </div> 
-        </section> -->
-
+  
+        <!-- ======= Announcement Section ======= -->
         <section class="page-section bg-light announcement-section" id="announcement">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-bold text-black text-uppercase">Announcement</h2>
             <h3 class="section-subheading text-muted"></h3>
         </div>
-
+<!-- Displays a carousel of images, likely for showcasing important announcements. -->
+<!-- Uses the Flickity library for carousel functionality. -->
         <div class="carousel" data-flickity='{ "autoPlay": true }'>
             @foreach ($sliders as $sliderItem)
                 <div class="carousel-cell" style="background-image: url({{ asset($sliderItem->image)}})"></div>
@@ -154,6 +135,7 @@
 </section>
 
 <!-- Announcement -->
+<!-- Container with a "news-container" class -->
 <div class="news-container">
     <div class="title">
         Announcement
@@ -164,9 +146,9 @@
             <li>{{$SliderItem->description}}</li>
         @endforeach
     </ul>
-</div>
+</div> <!-- End of Announcement Section -->
 
-
+<!-- link to the separated file for menu -->
     @include('homepage.includes.menu')
 
     <!-- ======= Specials Section ======= -->
@@ -370,7 +352,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
+                <h3>Jen Ybanez</h3>
                 <h4>Customer</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -396,8 +378,8 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Idyyy</h3>
+                <h4>Customer</h4>
               </div>
             </div><!-- End testimonial item -->
 

@@ -1245,12 +1245,17 @@ section {
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
+/* image-slider */
+
+
+*{
+  box-sizing: border-box;
+}
 
 .announcement-section {
-  padding-top: 3rem;
-  /* background-image: linear-gradient(to right, green , yellow); */
-  background: #18d26e;
+  padding-top: 5rem;
 }
+
 
 .carousel-cell{
   width: 66%;
@@ -1288,6 +1293,7 @@ section {
   margin-top: 1rem;
   font-size:4rem;
 }
+
 .news-container {
   position: absolute;
   top: 0;

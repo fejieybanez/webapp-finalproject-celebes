@@ -6,7 +6,7 @@
           <h2>Menu</h2>
           <p>Check Our Tasty Menu</p>
         </div>
-
+<!-- Offers a filter menu to categorize items into "All," "Platter," "Snacks," and "Desserts." -->
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
@@ -17,7 +17,11 @@
             </ul>
           </div>
         </div>
-
+<!-- Displays each menu item with:
+Image
+Name and price
+Brief description of ingredients
+Uses a grid layout to arrange items visually. -->
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-6 menu-item filter-starters">

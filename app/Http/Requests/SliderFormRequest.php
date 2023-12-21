@@ -29,13 +29,13 @@ class SliderFormRequest extends FormRequest
             //     'string',
             //     'max:255'
             // ],
-
+//validation rules for the description 
             'description' => [
                 'required',
                 'string',
                 'max:800'
             ],
-
+//validation rules for the image, must be jpg, jpeg, and png format 
             'image' => [
                 'nullable',
                 'image',
