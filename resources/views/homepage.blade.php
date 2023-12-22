@@ -34,7 +34,7 @@
 
 <body>
   <!-- This javascript is intended to make sliders in the announcement section work. Once the user added announcements, image will be displayed in a slider -->
- <!-- JavaScript -->
+  <!-- JavaScript -->
  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
         <script type="text/javascript">
             $('.main-carousel').flickity({
@@ -47,6 +47,7 @@
         </script>
          <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
 
+  <!-- Link the separated nav file found at the includes folder -->
   @include('homepage.includes.nav')
 
 
@@ -72,10 +73,10 @@
   </section><!-- End Hero -->
 
   <main id="main">
-<!-- since ang about is giseparate man ug file para di ra kaayo taas ni nga file, we should link it here para maapil ra gihapon syas landing page -->
+    <!-- since ang about is giseparate man ug file para di ra kaayo taas ni nga file, we should link it here para maapil ra gihapon syas landing page -->
   @include('homepage.includes.about') 
 
-  <!--  -->
+
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
@@ -118,14 +119,14 @@
 
   
         <!-- ======= Announcement Section ======= -->
-        <section class="page-section bg-light announcement-section" id="announcement">
+    <section class="page-section bg-light announcement-section" id="announcement">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-bold text-black text-uppercase">Announcement</h2>
             <h3 class="section-subheading text-muted"></h3>
         </div>
-<!-- Displays a carousel of images, likely for showcasing important announcements. -->
-<!-- Uses the Flickity library for carousel functionality. -->
+      <!-- Displays a carousel of images, likely for showcasing important announcements. -->
+      <!-- Uses the Flickity library for carousel functionality. -->
         <div class="carousel" data-flickity='{ "autoPlay": true }'>
             @foreach ($sliders as $sliderItem)
                 <div class="carousel-cell" style="background-image: url({{ asset($sliderItem->image)}})"></div>
